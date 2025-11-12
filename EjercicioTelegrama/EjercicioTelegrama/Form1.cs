@@ -20,7 +20,7 @@ namespace EjercicioTelegrama
         private void btnCalcular_Click(object sender, EventArgs e)
         {
             string textoTelegrama;
-            char tipoTelegrama = ' ';
+            char tipoTelegrama = 'o';
             int numPalabras = 0;
             double coste;
 
@@ -43,7 +43,8 @@ namespace EjercicioTelegrama
                 }
                 else
                 {
-                    coste = 0.5 * numPalabras;
+                    coste = 0;
+                    coste = 2.5 + 0.5 * (numPalabras - 10);
                 }
             }
             else
