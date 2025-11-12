@@ -94,7 +94,7 @@
             // rbtnOrdinario
             // 
             this.rbtnOrdinario.AutoSize = true;
-            this.rbtnOrdinario.Location = new System.Drawing.Point(143, 253);
+            this.rbtnOrdinario.Location = new System.Drawing.Point(156, 253);
             this.rbtnOrdinario.Name = "rbtnOrdinario";
             this.rbtnOrdinario.Size = new System.Drawing.Size(67, 17);
             this.rbtnOrdinario.TabIndex = 7;
